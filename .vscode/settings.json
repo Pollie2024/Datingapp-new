@@ -1,3 +1,11 @@
 {
-    "angular.log": "verbose"
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Users",
+            "group": "Dating.db",
+            "database": "${workspaceFolder:DatingApp}/API/dating.db"
+        }
+    ]
 }
