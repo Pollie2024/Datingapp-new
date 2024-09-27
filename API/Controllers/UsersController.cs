@@ -27,5 +27,5 @@ public class UsersController(DataContext context) : ControllerBase
         
         return user;
     }
-    
+
 }
